@@ -1,1 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
+.form-control, .btn{
+    font-size: 10pt!important;
+}
+
+body, html {
+    height: 100%;
+    background-repeat: repeat;
+    font-size: 10pt!important;
+    /* background-image: url('https://cdn-images-1.medium.com/max/1920/1*AcYLHh0_ve4TNRi6HLFcPA.jpeg'); */
+    background: linear-gradient(#167F92, #56d2e9);
+}
+
+.card-container.card {
+    max-width: 450px;
+    padding: 40px 40px;
+}
+
+
+.card {
+    
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-fb {
+    padding-top: 20px;
+}
+
+
+.image-circle {
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.header-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.chebox label {
+    font-size: 13px;
+    color: #8f8f8f;
+    font-weight: 400;
+    padding-bottom: 15px;
+    
+}
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+    text-align: center;
+}
+
+.btn-social {
+    position:relative;
+    padding-left:44px;
+    text-align:center;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis
+    
+}
+.btn-social :first-child {
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    width:32px;
+    line-height:34px;
+    font-size:1.6em;
+    text-align:center;
+    border-right:1px solid rgba(0,0,0,0.2)}
+    
+    .btn-facebook {
+        color:#fff !important;
+        background-color:#3b5998;
+        border-color:rgba(0,0,0,0.2)
+        
+    }
+    .btn-facebook:hover,.btn-facebook:focus,.btn-facebook:active,.btn-facebook.active,.open .dropdown-toggle.btn-facebook {
+        color:#fff !important;
+        background-color:#30487b;
+        border-color:rgba(0,0,0,0.2)
+        
+    }
+
+
+
+    

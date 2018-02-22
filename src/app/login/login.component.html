@@ -1,0 +1,56 @@
+<br>
+<div class="card card-container">
+  
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+  </ul>
+  
+  <img class="image-circle" src="https://lh3.googleusercontent.com/-ruiRxPDtB2g/WgF2qa5gu2I/AAAAAAAABhI/EFAOBlqKl4IC3QY9oyHd8fMQa7WxQvmKgCL0BGAYYCw/h202/2017-11-07.png">
+  
+  <!-- Facebook Login -->
+  <div class="login-fb">
+    <a class="btn btn-block btn-social btn-facebook">
+      <span class="fa fa-facebook"></span>Login With Facebook
+    </a>
+  </div>
+  <hr>
+  
+  <!-- Login Form -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="Login">
+      <form role="form" class="form-horizontal">
+        
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">@</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">@</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+        </div>
+        
+        
+        <div id="remember" class="chebox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember Me
+          </label>
+        </div>
+        <div>
+          <button class="btn btn-lg btn-primary btn-block btn-signin" type="button" (click)="onLoginClicked()">Login</button>
+        </div>
+        
+      </form>
+    </div>
+    <!-- End Login Form -->
+    
+    
+  </div>
+</div>
+
+
+
